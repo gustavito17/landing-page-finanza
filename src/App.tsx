@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import './App.css';
 
 const App: React.FC = () => {
-  const aboutRef = useRef<HTMLElement | null>(null);
+  const aboutRef = useRef<HTMLDivElement | null>(null);
 
   const handleScrollToAbout = () => {
     if (aboutRef.current) {
